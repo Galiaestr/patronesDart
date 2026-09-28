@@ -1,2 +1,2 @@
 # patronesDart
-Descripcion: Ejemplo del uso de patrones de 
+Ejemplo del uso de patrones de diseño en Dart
