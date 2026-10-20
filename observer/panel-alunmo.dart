@@ -1,6 +1,10 @@
-class PanelAlumno{
+import 'observador.dart';
 
- void mostrar(String tarea){
-  print("PanelAlumno: nueva tarea $tarea");
+//observador
+
+class PanelAlumno implements Observador {
+  @override
+  void actualizar(String tarea){
+    print("PanelAlumno: nueva tarea $tarea");  
  } 
 }
